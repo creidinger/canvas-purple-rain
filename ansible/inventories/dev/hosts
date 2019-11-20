@@ -1,10 +1,10 @@
-<TEMPLATE>-local.adepdev.com
+purplerain-local.adepdev.com
 
 [www]
-<TEMPLATE>-local.adepdev.com
+purplerain-local.adepdev.com
 
 [sql]
-<TEMPLATE>-local.adepdev.com
+purplerain-local.adepdev.com
 
 [global:children]
 www

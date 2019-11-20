@@ -7,9 +7,9 @@
     - role: creidinger.common
     - role: creidinger.php
     - role: creidinger.apache
-    - role: creidinger.mysql_server
-    - role: creidinger.phpmyadmin
-      when: install_phpymyadmin is defined
+    # - role: creidinger.mysql_server
+    # - role: creidinger.phpmyadmin
+    #   when: install_phpymyadmin is defined
 
   tasks:
   # - name: Install npm packages based on /assets/pacage.json

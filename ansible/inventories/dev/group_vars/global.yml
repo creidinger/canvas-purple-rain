@@ -6,9 +6,9 @@ doc_root: /vagrant/src/public_html
 
 composer_working_dir: /vagrant/src/public_html
 
-servername: <TEMPLATE>-local.adepdev.com
-serveralias: <TEMPLATE>-local.adepdev.com
-base_url: http://<TEMPLATE>-local.adepdev.com
+servername: purplerain-local.adepdev.com
+serveralias: purplerain-local.adepdev.com
+base_url: http://purplerain-local.adepdev.com
 
 remote_path: /vagrant/
 php_display_errors: On
@@ -23,7 +23,7 @@ mysql_root_password:      "mysqlrootpassword"
 mysql_password:           "mysqlpassword"
 mysql_encrypt_passphrase: "mysql_encryption_passphrase"
 mysql_host: localhost
-mysql_database: <TEMPLATE>
-mysql_user: <TEMPLATE>
+mysql_database: purplerain
+mysql_user: purplerain
 mysql_port: 3306
 mysql_backup_filename: REPLACE_ME.sql

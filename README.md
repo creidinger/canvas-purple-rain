@@ -24,4 +24,4 @@ Currently, VirtualBox is the only supported provider.
 
 1. Clone the repo.
 2. Open the Vagrant file
-3. Find and replace <TEMPLATE>, this names your vm.
+3. Find and replace purplerain, this names your vm.

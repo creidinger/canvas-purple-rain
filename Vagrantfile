@@ -20,8 +20,8 @@ if plugin_installed === true
 end
 ########
 
-VM_NAME        = "<TEMPLATE>"
-VM_HOSTNAME    = "<TEMPLATE>-local.adepdev.com"
+VM_NAME        = "purplerain"
+VM_HOSTNAME    = "purplerain-local.adepdev.com"
 
 # All Vagrant configuration is done below.
 Vagrant.configure("2") do |config|
@@ -37,7 +37,7 @@ Vagrant.configure("2") do |config|
   config.hostmanager.include_offline = true
 
 
-  config.vm.define "<TEMPLATE>-local.adepdev.com", primary: true do |server|
+  config.vm.define "purplerain-local.adepdev.com", primary: true do |server|
 
     # global Virtualbox config
     server.vm.provider :virtualbox do |v|
@@ -55,7 +55,7 @@ Vagrant.configure("2") do |config|
     ####### vagrant hostmanager config
     server.vm.hostname = VM_HOSTNAME
     server.vm.network :private_network, type: "dhcp"
-    server.hostmanager.aliases = %w(<TEMPLATE>-local.adepdev.com <TEMPLATE>-local)
+    server.hostmanager.aliases = %w(purplerain-local.adepdev.com purplerain-local)
 
    #
    # vagrant ssh -c allows you to run an script in ssh.
