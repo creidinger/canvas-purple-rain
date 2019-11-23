@@ -18,7 +18,15 @@
   <body>
     <!-- <h1>Hello, world!</h1> -->
 
-    <canvas id="canvas" width="300" height="300"></canvas>
+    <div class="container">
+
+        <div class="canvas-wrapper">
+
+            <canvas id="canvas" height="300" width="300"></canvas>
+
+        </div><!-- .canvas-wrapper -->
+
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

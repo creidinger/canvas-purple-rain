@@ -1,0 +1,8 @@
+.canvas-wrapper {
+    margin: 0 auto;
+    height: 300px;
+    width: 300px;
+}
+#canvas {
+    border: 1px solid;
+}
